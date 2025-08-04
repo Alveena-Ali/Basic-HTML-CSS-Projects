@@ -1,0 +1,53 @@
+/* Body Styking */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(87, 224, 178);
+    flex-direction: column;
+    gap: 30px;
+}
+
+/* Heading Styling */
+h1 {
+    color: rgb(131, 6, 73);
+    font-size: 50px;
+}
+
+/* Circle Styling */
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(29, 77, 61);
+    border-radius: 50%;
+    border: 3px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+/* Circle Hover Styling */
+.circle:hover {
+    background-color: rgb(78, 146, 123);
+    transform: scale(1.2);
+    border-radius: 20%;
+}
+
+/* Box Styling */
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(192, 17, 52);
+    border-radius: 10px;
+    border: 3px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+/* Box Hover Styling */
+.box:hover {
+    background-color: rgb(170, 50, 86);
+    transform: rotate(45deg);
+    border-radius: 0;
+}
