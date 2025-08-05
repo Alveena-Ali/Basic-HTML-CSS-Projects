@@ -1,0 +1,62 @@
+/* Body Styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: rgb(153, 104, 103);
+}
+
+/* Heading h1 Styling */
+h1 {
+    color: rgb(49, 5, 29);
+    font-size: 40px;
+}
+
+/* Card Styling */
+.card {
+    background-color: rgb(94, 148, 135);
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Image Styling */
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Heading h2 Styling */
+h2 {
+    color: rgb(39, 35, 35);
+    margin: 10px 0;
+}
+
+/* Paragraph Styling */
+p {
+    color: rgb(49, 42, 42);
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* Button Styling */
+button {
+    background-color: rgb(71, 45, 6);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button Hover Styling */
+button:hover {
+    background-color: rgb(107, 66, 5);
+}
